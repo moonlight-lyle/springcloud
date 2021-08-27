@@ -24,13 +24,13 @@ public class UserController {
 
     @GetMapping("/findAll")
     public List<User> findAll(){
-//        System.out.println("调用实例1111111111111111111");
+//        System.out.println("调用实例222222222222222");
         return userService.findAll();
     }
 
     @GetMapping("/findByUser")
     public User findByUser(){
-        System.out.println("调用实例1111111111111111111");
+        System.out.println("调用实例222222222222222");
 //        int i=1/0; // 模拟触发熔断机制
         // 模拟请求超时触发Hystrix
 //        try {
